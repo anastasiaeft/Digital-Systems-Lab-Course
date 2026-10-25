@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="hdmi_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="hdmi_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1010997765001fs"></ZoomEndTime>
+      <Cursor1Time time="1010997765000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="103"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/hdmi_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/clk_pixel" type="logic">
+      <obj_property name="ElementShortName">clk_pixel</obj_property>
+      <obj_property name="ObjectShortName">clk_pixel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_tx_p" type="array">
+      <obj_property name="ElementShortName">hdmi_tx_p[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_tx_p[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_tx_n" type="array">
+      <obj_property name="ElementShortName">hdmi_tx_n[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_tx_n[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_clk_p" type="logic">
+      <obj_property name="ElementShortName">hdmi_clk_p</obj_property>
+      <obj_property name="ObjectShortName">hdmi_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_clk_n" type="logic">
+      <obj_property name="ElementShortName">hdmi_clk_n</obj_property>
+      <obj_property name="ObjectShortName">hdmi_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/nf_inst/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/nf_inst/vcount" type="array">
+      <obj_property name="ElementShortName">vcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vcount[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/nf_inst/new_frame" type="logic">
+      <obj_property name="ElementShortName">new_frame</obj_property>
+      <obj_property name="ObjectShortName">new_frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/up" type="logic">
+      <obj_property name="ElementShortName">up</obj_property>
+      <obj_property name="ObjectShortName">up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/down" type="logic">
+      <obj_property name="ElementShortName">down</obj_property>
+      <obj_property name="ObjectShortName">down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/paddle_speed" type="array">
+      <obj_property name="ElementShortName">paddle_speed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">paddle_speed[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/puck_speed" type="array">
+      <obj_property name="ElementShortName">puck_speed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_speed[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/new_game" type="logic">
+      <obj_property name="ElementShortName">new_game</obj_property>
+      <obj_property name="ObjectShortName">new_game</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/puck_x" type="array">
+      <obj_property name="ElementShortName">puck_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/puck_y" type="array">
+      <obj_property name="ElementShortName">puck_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/pong_inst/puck_x" type="array">
+      <obj_property name="ElementShortName">puck_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/pong_inst/puck_y" type="array">
+      <obj_property name="ElementShortName">puck_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/paddle_x" type="array">
+      <obj_property name="ElementShortName">paddle_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">paddle_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/paddle_y" type="array">
+      <obj_property name="ElementShortName">paddle_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">paddle_y[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/red" type="array">
+      <obj_property name="ElementShortName">red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/green" type="array">
+      <obj_property name="ElementShortName">green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/blue" type="array">
+      <obj_property name="ElementShortName">blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/pong_inst/right_dir" type="logic">
+      <obj_property name="ElementShortName">right_dir</obj_property>
+      <obj_property name="ObjectShortName">right_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/pong_inst/down_dir" type="logic">
+      <obj_property name="ElementShortName">down_dir</obj_property>
+      <obj_property name="ObjectShortName">down_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/hdmi_tb/hdmi_inst/pong_inst/game_over" type="logic">
+      <obj_property name="ElementShortName">game_over</obj_property>
+      <obj_property name="ObjectShortName">game_over</obj_property>
+   </wvobject>
+</wave_config>
